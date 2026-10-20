@@ -203,7 +203,7 @@ animate_run(positions, actives)
 The simulation with two agents looks like : 
 
 <p align="center">
-  <img src="2_agents.png" />
+  <img src="doc/2_agents.png" />
 </p>
 
 ## Regularly spaced 
@@ -211,7 +211,7 @@ The simulation with two agents looks like :
 A more complex scenario with nine crossing agents. 
 
 <p align="center">
-  <img src="circle_crossing.gif" />
+  <img src="doc/circle_crossing.gif" />
 </p>
 
 ## Lifelong simulation 
@@ -219,7 +219,7 @@ A more complex scenario with nine crossing agents.
 Instead a deactivate arriving agents, you can give them new destinations. You can simulate entire crowds of agents. NB: even if the code is not designed for very large simulations, we can still easily simulate hundreds of agent simultaneously (even if they end up blocking each other, the computational load remains the same) 
 
 <p align="center">
-  <img src="lifelong.gif" />
+  <img src="doc/lifelong.gif" />
 </p>
 
 ## Multi $\tau$ 
@@ -256,7 +256,7 @@ simulator.processObstacles()
 > Theoretically, we can have several obstacles in a python list and iterate over them to `addObstacle` and finally `processObstacles` only once.  
 
 <p align="center">
-  <img src="one_obstacle.gif" />
+  <img src="doc/one_obstacle.gif" />
 </p>
 
 # NB: Agent Data 
