@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared  -o rvo2.cpython-315-x86_64-linux-gnu.so CMakeFiles/rvo2.dir/bindings.cpp.o CMakeFiles/rvo2.dir/src/Agent.cpp.o CMakeFiles/rvo2.dir/src/KdTree.cpp.o CMakeFiles/rvo2.dir/src/Obstacle.cpp.o CMakeFiles/rvo2.dir/src/RVOSimulator.cpp.o 
